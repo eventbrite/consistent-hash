@@ -17,9 +17,10 @@ def list_files(path):
         if os.path.isfile(fn):
             yield fn
 
+
 setup(
     name='consistent_hash',
-    version='2.1.4+eventbrite',
+    version='2.2.0+eventbrite',
     author='Yummy Bian',
     author_email='yummy.bian@gmail.com',
     url='https://github.com/yummybian',
